@@ -9,7 +9,7 @@ function read() {
 }
 read()
 function solve() {
-  const puzzle = read()[1];
+  const puzzle = read();
   const puzzleArray = [];
   for (let i = 9; i < puzzle.length + 1; i += 9) {
     puzzleArray.push(puzzle.slice(i - 9, i));
